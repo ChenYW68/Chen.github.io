@@ -40,6 +40,33 @@ section {
     background: #f4f4f4;
 }
 
+#long-image-section {
+    height: 100vh; /* Full viewport height */
+    background: url('images/longfig.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#long-image-section .content {
+    position: relative;
+    z-index: 2;
+}
+
+#long-image-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
 #animated-section {
     height: 300px;
     background: url('images/longfig.jpg') repeat;
