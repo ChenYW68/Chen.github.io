@@ -65,9 +65,9 @@ figure {
 
 
 .responsive-image {
-    width: 50%;
+    width: 80%;
     height: auto;
-    max-width: 50%; /* Ensure the image does not overflow */
+    max-width: 80%; /* Ensure the image does not overflow */
 }
 figcaption {
     margin-top: 10px;
