@@ -60,14 +60,14 @@ figure {
     margin: 0;
     padding: 0;
     text-align: center;
-    width: 100%; /* Full width */
+    width: 50%; /* Full width */
 }
 
 
 .responsive-image {
-    width: 50%;
+    width: 10%;
     height: auto;
-    max-width: 50%; /* Ensure the image does not overflow */
+    max-width: 10%; /* Ensure the image does not overflow */
 }
 figcaption {
     margin-top: 10px;
