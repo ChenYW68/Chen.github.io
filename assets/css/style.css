@@ -60,6 +60,8 @@ figure {
     margin: 0;
     padding: 0;
     text-align: center;
+    width: 50px; /* Set the desired width */
+    height: 50px; /* Set the desired height */
 }
 
 figure img {
