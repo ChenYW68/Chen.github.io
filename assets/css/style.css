@@ -49,8 +49,8 @@ section {
 }
 
 .row {
-    max-width: 10px;
-    width: 10%;
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,13 +60,13 @@ figure {
     margin: 0;
     padding: 0;
     text-align: center;
-    width: 50px; /* Set the desired width */
-    height: 50px; /* Set the desired height */
+    width: 100%; /* Full width */
 }
 
 figure img {
-    max-width: 10%;
-    height: 10%;
+    max-width: 100%;
+    height: auto;
+    animation: slide 10s infinite alternate; /* Add your desired animation */
 }
 
 figcaption {
@@ -82,4 +82,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }
