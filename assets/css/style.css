@@ -50,7 +50,7 @@ section {
 
 .row {
     max-width: 10px;
-    width: 100%;
+    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ figure {
 }
 
 figure img {
-    max-width: 100%;
+    max-width: 10%;
     height: 10%;
 }
 
