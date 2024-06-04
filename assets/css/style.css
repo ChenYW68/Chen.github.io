@@ -65,7 +65,7 @@ figure {
 
 .full-width-image {
     max-width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 figcaption {
